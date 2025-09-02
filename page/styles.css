@@ -69,6 +69,10 @@ a {
 
 }
 
+.hero h2 {
+    margin-bottom: 15px;
+}
+
 
 .btn {
     padding: 0 20px;
@@ -82,8 +86,30 @@ a {
     cursor: pointer;
 }
 
+#features {
+    margin-top: 30px;
+}
+
 .grid {
     display: flex;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkcyan;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 10px;
 }
 
 header {
