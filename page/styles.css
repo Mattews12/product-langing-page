@@ -166,6 +166,23 @@ nav > ul {
 #history > iframe {
     max-width: 600px;
     width: 100%;
-    
+}
+
+#models {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
