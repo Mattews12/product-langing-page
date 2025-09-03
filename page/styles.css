@@ -186,3 +186,19 @@ nav > ul {
     border-radius: 5px;
 }
 
+.product > .model {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.product > h2 {
+    margin-top: 15px;
+}
+
+.product > ol{
+    margin: 15px 0;
+}
