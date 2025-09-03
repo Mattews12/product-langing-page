@@ -202,3 +202,24 @@ nav > ul {
 .product > ol{
     margin: 15px 0;
 }
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: flex-end;
+}
+footer > ul > li {
+    padding: 0 10px;
+}
+
+footer > span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
